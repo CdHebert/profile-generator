@@ -28,12 +28,6 @@ test('gets employee email', () => {
     expect(person.getEmail()).toEqual(person.email)
 })
 
-test('gets employee github info', () => {
-    const person = new Employee('Cody', 3215, 'gmail.com');
-
-    expect(person.getGit()).toEqual(person.gitHub)
-})
-
 test('gets employee role call', () => {
     const person = new Employee('Cody', 3215, 'gmail.com');
 

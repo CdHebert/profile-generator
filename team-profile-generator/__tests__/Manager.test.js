@@ -33,6 +33,12 @@ test('gets manager github info', () => {
     expect(person.getGit()).toEqual(person.gitHub)
 })
 
+test('gets manger office number', () => {
+    const person = new Manager('Cody', 3215, 'gmail.com');
+
+    expect(person.getOffice()).toEqual(person.officeNumber)
+})
+
 test('gets manager role call', () => {
     const person = new Manager('Cody', 3215, 'gmail.com');
 
