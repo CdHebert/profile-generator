@@ -28,6 +28,7 @@ for installation clone the code from github and in your terminal run npm install
 Cody Hebert contributed to this project. if anyone else would like to contribute feel free to do so.
 
 ## Tests
+Video Walkthrough Testing - https://youtu.be/xfUm6eRnDCs
 
 after installation run npm run test to test the code working properly
 
